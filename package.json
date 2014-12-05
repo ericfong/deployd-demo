@@ -1,0 +1,18 @@
+{
+  "name": "deployd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deployd": "ericfong/deployd#jobdoh",
+    "dpd-email": "ericfong/dpd-email#master",
+    "dpd-s3": "ericfong/dpd-s3#refactor_signedUrl",
+    "dpd-notify": "^1.0.1",
+    "dpd-twilio": "^0.1.0"
+  }
+}
